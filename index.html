@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Abdolrahman Ashraf | Data Analyst</title>
+<meta name="description" content="Power BI, Excel and Python data analyst in Cairo. Dashboards, data cleaning and business insights.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+  :root{--bg:#0b1220;--panel:#121b2e;--line:#1f2a40;--ink:#e6ebf3;--muted:#8d9bb3;--accent:#2ad4b5;--gold:#f2c25b}
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{font-family:Inter,system-ui,sans-serif;background:var(--bg);color:var(--ink);line-height:1.65}
+  a{color:inherit;text-decoration:none}
+  .wrap{max-width:1100px;margin:auto;padding:0 20px}
+  nav{display:flex;justify-content:space-between;align-items:center;height:72px}
+  nav b{font-size:1.1rem} nav b span{color:var(--accent)}
+  nav ul{display:flex;gap:26px;list-style:none;color:var(--muted);font-weight:600;font-size:.95rem}
+  nav ul a:hover{color:var(--ink)}
+  .hero{padding:90px 0 70px}
+  .pill{display:inline-flex;gap:8px;align-items:center;border:1px solid var(--line);padding:6px 14px;border-radius:999px;color:var(--muted);font-size:.85rem}
+  .dot{width:8px;height:8px;border-radius:50%;background:var(--accent);box-shadow:0 0 10px var(--accent)}
+  h1{font-size:clamp(2.2rem,5vw,3.6rem);line-height:1.15;margin:22px 0;font-weight:800;letter-spacing:-.02em}
+  h1 span{background:linear-gradient(90deg,var(--accent),var(--gold));-webkit-background-clip:text;background-clip:text;color:transparent}
+  .lead{color:var(--muted);font-size:1.15rem;max-width:640px}
+  .btns{display:flex;gap:12px;margin-top:32px;flex-wrap:wrap}
+  .btn{padding:12px 24px;border-radius:10px;font-weight:700;background:var(--accent);color:#04211b}
+  .btn.o{background:transparent;border:1px solid var(--line);color:var(--ink)}
+  .tools{display:flex;gap:10px;flex-wrap:wrap;margin-top:40px}
+  .tools span{background:var(--panel);border:1px solid var(--line);padding:6px 12px;border-radius:8px;font-size:.85rem;color:var(--muted)}
+  section{padding:70px 0;border-top:1px solid var(--line)}
+  h2{font-size:1.9rem;margin-bottom:8px} .sub{color:var(--muted);margin-bottom:36px}
+  .proj{display:grid;grid-template-columns:1.25fr 1fr;gap:34px;align-items:center;background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:22px;margin-bottom:26px}
+  .proj img{width:100%;border-radius:12px;display:block;background:#fff}
+  .proj h3{font-size:1.35rem;margin:8px 0} .proj p{color:var(--muted)}
+  .proj ul{margin:14px 0 0 18px;color:var(--ink)} .proj li{margin-bottom:6px}
+  .kind{color:var(--accent);font-weight:700;font-size:.8rem;letter-spacing:.08em;text-transform:uppercase}
+  .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+  .c{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:24px}
+  .c h3{margin:6px 0} .c p{color:var(--muted);font-size:.95rem}
+  .num{font-size:2rem;font-weight:800;color:var(--gold)}
+  .svc .c h3{font-size:1.1rem}
+  .contact{text-align:center}
+  .contact .btns{justify-content:center}
+  footer{color:var(--muted);text-align:center;padding:30px 0;font-size:.85rem;border-top:1px solid var(--line)}
+  @media (max-width:860px){.proj{grid-template-columns:1fr}.cards{grid-template-columns:1fr}nav ul{display:none}}
+  .thumb{width:100%;border-radius:10px;margin-bottom:12px;display:block;aspect-ratio:16/9;object-fit:cover}
+</style>
+</head>
+<body>
+<div class="wrap">
+<nav><b>Abdolrahman<span>.</span></b>
+  <ul><li><a href="#work">Work</a></li><li><a href="#services">Services</a></li><li><a href="#about">About</a></li><li><a href="#contact">Contact</a></li></ul></nav>
+
+<header class="hero">
+  <span class="pill"><i class="dot"></i> Available for freelance projects</span>
+  <h1>I turn messy spreadsheets into <span>dashboards that drive decisions.</span></h1>
+  <p class="lead">Data Analyst in Cairo working with Power BI, Excel, SQL and Python. I clean your data, build the dashboard, and tell you what the numbers mean, in Arabic or English.</p>
+  <div class="btns"><a class="btn" href="#work">See my work</a><a class="btn o" href="assets/CV.pdf">Download CV</a></div>
+  <div class="tools"><span>Power BI · DAX</span><span>Excel · Power Query</span><span>Tableau</span><span>SQL</span><span>Python · pandas</span></div>
+</header>
+
+<section id="work">
+  <h2>Selected work</h2><p class="sub">Client projects and portfolio case studies. Demo projects use synthetic data and are labelled as such.</p>
+
+  <div class="proj">
+    <img src="assets/dashboard_overview.png" alt="Retail sales dashboard with KPIs, monthly trend, branch, category, payment and customer segment charts">
+    <div><span class="kind">Case study · Excel · Python</span><h3>Retail chain sales dashboard</h3>
+      <p>81K transactions across 6 branches of a demo Egyptian supermarket chain, 2024–2025.</p>
+      <ul><li>Champions segment: 34% of customers, 62% of revenue</li><li>Ramadan lifts daily revenue by 22%</li><li>Cash share fell 41% → 34% as InstaPay grew</li><li>Delivered as an Excel dashboard with native charts</li></ul></div>
+  </div>
+
+  <div class="proj">
+    <img src="assets/cleaning_before_after.png" alt="Bar chart of data cleaning fixes: duplicates, dates, typos, prices">
+    <div><span class="kind">Case study · Python · Data cleaning</span><h3>POS export cleanup pipeline</h3>
+      <p>A re-runnable pipeline that turns a messy point-of-sale export into an analysis-ready table.</p>
+      <ul><li>82,662 rows in, 81,032 clean rows out</li><li>12K mixed-format dates unified</li><li>Typos, text prices, duplicates and invalid returns fixed</li></ul></div>
+  </div>
+
+  <div class="cards">
+    <div class="c"><img class="thumb" src="assets/3_hotel_reservations_dashboard_crop.png" alt="Hotel reservations dashboard" loading="lazy"><span class="kind">Client · Excel · Power BI</span><h3>Hotel reservations</h3><p>36,275 bookings analysed. Lead time over 180 days → 74% cancellation rate, guiding overbooking policy.</p></div>
+    <div class="c"><img class="thumb" src="assets/1_real_estate_dashboard_crop.png" alt="Real estate performance dashboard" loading="lazy"><span class="kind">Client · Excel</span><h3>Real estate performance</h3><p>500 properties in 10 U.S. cities: sales volume, agent profitability, days on market.</p></div>
+    <div class="c"><img class="thumb" src="assets/2_hr_workforce_dashboard_crop.png" alt="Workforce analytics dashboard" loading="lazy"><span class="kind">Client · Power Query · Power BI</span><h3>Workforce analytics</h3><p>200 employees, 7 departments: headcount, pay, performance and attendance reporting.</p></div>
+  </div>
+</section>
+
+<section id="services" class="svc">
+  <h2>What I can do for you</h2><p class="sub">Fixed-price packages or hourly, with revisions until it's right.</p>
+  <div class="cards">
+    <div class="c"><span class="num">01</span><h3>Dashboards</h3><p>Power BI or Excel KPI dashboards for sales, finance, HR and inventory.</p></div>
+    <div class="c"><span class="num">02</span><h3>Data cleaning</h3><p>Duplicates, formats, typos and merging many files into one clean model.</p></div>
+    <div class="c"><span class="num">03</span><h3>Automated reports</h3><p>Reports that refresh from your data instead of being rebuilt every month.</p></div>
+  </div>
+</section>
+
+<section id="about">
+  <h2>About</h2>
+  <p class="lead">Business Information Systems student at Modern Academy, Maadi (graduating 2027). Completed the Microsoft Power BI Specialist track at DEPI (Digital Egypt Pioneers Initiative, Nov 2025 – Jul 2026) and the University of Tokyo GCI World data science program (Apr – Aug 2026, passed the final assessment). Freelancing on Kafil and Nafezly since April 2026. Arabic native, English fluent.</p>
+</section>
+
+<section id="contact" class="contact">
+  <h2>Let's work together</h2><p class="sub">Send me a sample of your data and I'll tell you what dashboard I'd build.</p>
+  <div class="btns"><a class="btn" href="mailto:abdolrahmaneata@gmail.com">Email me</a><a class="btn o" href="https://linkedin.com/in/abdolrahmaneata">LinkedIn</a></div>
+</section>
+</div>
+<footer>© 2026 Abdolrahman Ashraf · Cairo, Egypt</footer>
+</body>
+</html>
